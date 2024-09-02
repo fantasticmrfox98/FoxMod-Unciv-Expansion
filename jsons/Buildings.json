@@ -1,0 +1,28 @@
+[
+	// New Buildings
+	{
+		"name": "Heiau",
+		"replaces": "Temple",
+		"uniqueTo": "Hawaii",
+		"faith": 2,
+		"culture": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Marae",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Polynesia",
+		"culture": 4,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+]

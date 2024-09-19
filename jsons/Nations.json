@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Hawaii",
+		"style": "Oceania",
 		"leaderName": "Kamehameha",
 		"adjective": ["Hawaiian"],
 		"startBias": ["Coast"],
@@ -27,15 +28,62 @@
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
             "[+1] Sight <for [Embarked] units>",
-			"[+1 Gold] from every [Plantation]",] 
+			"[+1 Gold, +1 Production] from every [Plantation]"] 
+
 		"cities": ["Honolulu","Hilo","Waipahu","Kailua","Kaneohe","Kahului","Mililani","Kihei","Kapolei","Makakilo",
 			"Wahiawa","Wailuku","Halawa","Kunia","Waimalu","Waianae","Lahaina","Kalaoa","Nanakuli","Waipio",
 			"Kapaa","Maili","Aiea","Makaha","Waimea","Waihee-Waiehu","Ahuimanu","Haiku-Pauwela","Pukalani","Lihue","Waikele",
 			"Makawao","Waikoloa","Napili-Honokowai","Kula","Waimanalo","Wailea","Laie","Kahaluu","Pupukea"],
+
         "spyNames": ["Alepana", "Makani", "Kiwini", "Hakumele", "Iona'ala", "Lu'ukia", "Malea", "Keonaona", "Ianete", "Aleka"]
 	},
 	{
+		"name": "Mali",
+		"style": "African",
+		"leaderName": "Musa I",
+		"adjective": ["Malian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Harun al-Rashid",
+		
+		"startIntroPart1": "Mansa Musa, great king of Mali, you are blessed with wealth beyond comprehension, yet you remain uncorrupted. Raise your eyes from the marketplace to the heavens and satisfy your heart's great yearning for peace. Protect the prosperity of your people, and history will write your name in golden letters.",
+		"startIntroPart2": "Will your new empire shine through the ages of history?",
+		
+		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
+		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
+		"defeated": "Wealth is fleeting; learning is vanity. All I have done, O God, I did in your name.",
+		"introduction": "I am Sultan Musa, lord of Mali, and—thanks be to God—a very, very rich man. I am pleased to meet you.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [204,59,105],
+		"innerColor": [240,218,61],
+
+		"favoredReligion": "Islam",
+
+		"uniqueName": "Sahel Merchants",
+		"uniques": ["[+100]% [Gold] from every [Mine]", "[{Military} {Land}] units gain the [Imported Armor] promotion"]
+
+		"cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Salehao","Walata","Tawdenni","Tadmekka","Awdaghust","Kirina",
+			"Segu","Nioro","Kangaba","Kouroussa","Niagassola","Diara","Kayes","N'teret","Dia","Arawan",
+			"Kiri","Mopti","Narena","Dakadiala","Kukya","Siby","Fadama","Tabon","Siguiri","Kaniana"]
+
+        "spyNames": ["Alou", "Zahra", "Boubacar", "Djen'hai", "Kassim", "Tatiska", "Salif", "Moctar", "Hamsetou", "Seydou"]
+	}
+	{
 		"name": "Polynesia",
+		"style": "Oceania",
 		"leaderName": "Kupe",
 		"adjective": ["Maori"],
 		"startBias": ["Coast"],
@@ -63,9 +111,11 @@
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
             "[+1] Sight <for [Embarked] units>",
 			"[+1 Food, +1 Culture] from every [Fishing Boats]"],
+
 		"cities": ["Te Hokianga-nui-a-Kupe","Opango","Whakarewarewa","Kaiapoi","Whanganui","Kawhia","Taumutu","Kapiti","Te Pokohiwi","Otatara pa",
 			"Motupohue","Ruatoria","Maungakiekie pa","Taupiri","Pari-ru","Opotiki","Taumatawhana pa","Whanganui-a-Tara","Waimapihi pā","Kororipo pā",
 			"Motakiora"],
+
         "spyNames": ["Ahia", "Hohepa", "Otikoro", "Patariki", "Rua", "Pania", "Areta", "Ena", "Ramarie", "Tahupotiki"]
     },
 ]

@@ -1,4 +1,20 @@
 [
+//Ancient Era
+	{
+		"name": "Donso",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Mali",
+		"movement": 3,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move after attacking"],
+		"attackSound": "metalhit"
+	},
+//Renaissance Era
 	{
 		"name": "Koa Malina",
 		"unitType": "Gunpowder",
